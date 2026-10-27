@@ -1,0 +1,118 @@
+/* English. Keys are the Simplified Chinese source strings; run `./build.sh --test` to check for missing keys. */
+
+/* Errors */
+"无法识别的链接，需要 otpauth:// 或 otpauth-migration:// 格式" = "Unrecognized link. Expected an otpauth:// or otpauth-migration:// link.";
+"暂不支持 %@ 类型，仅支持 TOTP" = "%@ isn't supported yet. Only TOTP is supported.";
+"密钥无效（需要 Base32 编码）" = "Invalid secret (must be Base32).";
+"Google 身份验证器导出数据无法解析" = "Couldn't read the Google Authenticator export data.";
+"没有找到可导入的账户" = "No accounts found to import.";
+"未命名" = "Untitled";
+
+/* Keychain & store */
+"OTPBar 验证码账户" = "OTPBar verification code accounts";
+"钥匙串数据无法解析，已暂停保存以免覆盖" = "Couldn't read the keychain data. Saving is paused so nothing gets overwritten.";
+"读取钥匙串失败（%lld），请在弹窗中允许访问后重试" = "Couldn't read the keychain (%lld). Allow access in the system prompt and try again.";
+"钥匙串不可用，修改未保存" = "Keychain unavailable. Changes weren't saved.";
+"保存到钥匙串失败（%lld）" = "Couldn't save to the keychain (%lld).";
+"账户已存在，未重复添加" = "This account already exists.";
+
+/* Window titles */
+"添加账户" = "Add Account";
+"编辑账户" = "Edit Account";
+"OTPBar 设置" = "OTPBar Settings";
+
+/* Menu bar panel */
+"搜索" = "Search";
+"没有匹配“%@”的账户" = "No accounts match “%@”";
+"添加账户 (⌘N)" = "Add Account (⌘N)";
+"设置 (⌘,)" = "Settings (⌘,)";
+"复制验证码" = "Copy Code";
+"复制下一个验证码" = "Copy Next Code";
+"编辑…" = "Edit…";
+"在菜单栏中隐藏" = "Hide from Menu Bar";
+"管理账户…" = "Manage Accounts…";
+"复制 otpauth 链接" = "Copy otpauth Link";
+"删除…" = "Delete…";
+"还没有账户" = "No accounts yet";
+"扫描二维码或粘贴 otpauth:// 链接来添加" = "Scan a QR code or paste an otpauth:// link to add one";
+"所有账户都已隐藏" = "All accounts are hidden";
+"管理账户" = "Manage Accounts";
+"点击复制 · ⌘1–9 快速复制 · ↩ 复制首项" = "Click to copy · ⌘1–9 quick copy · ↩ copies first";
+"退出" = "Quit";
+"密钥无效" = "Invalid secret";
+"已复制" = "Copied";
+"此账户周期为 %lld 秒" = "This account refreshes every %lld seconds";
+"点击复制（⌘%lld）· 右键更多操作" = "Click to copy (⌘%lld) · Right-click for more";
+"点击复制 · 右键更多操作" = "Click to copy · Right-click for more";
+"还剩 %lld 秒" = "%lld s left";
+
+/* Delete confirmation */
+"删除“%@”？" = "Delete “%@”?";
+"删除后将无法再生成该账户的验证码。请确认你已在对应网站关闭两步验证或有其他备份。" = "You won't be able to generate codes for this account anymore. Make sure two-factor authentication is turned off on the site or that you have another backup.";
+"删除" = "Delete";
+"取消" = "Cancel";
+
+/* Add / edit window */
+"账户不存在或已被删除" = "This account doesn't exist or was deleted.";
+"快速导入" = "Quick Import";
+"手动输入" = "Enter Manually";
+"账户信息" = "Account Details";
+"当前验证码：%@" = "Current code: %@";
+"完成" = "Done";
+"添加" = "Add";
+"保存" = "Save";
+"扫描屏幕二维码" = "Scan Screen";
+"从剪贴板" = "From Clipboard";
+"从图片文件" = "From Image File";
+"粘贴 otpauth:// 或 otpauth-migration:// 链接" = "Paste an otpauth:// or otpauth-migration:// link";
+"导入" = "Import";
+"可以连续导入多个账户，窗口不会自动关闭。" = "You can import several accounts in a row; this window stays open.";
+"服务" = "Service";
+"账户" = "Account";
+"密钥" = "Secret";
+"例如 GitHub" = "e.g. GitHub";
+"例如 me@example.com" = "e.g. me@example.com";
+"Base32 密钥，空格可忽略" = "Base32 secret (spaces are ignored)";
+"高级选项" = "Advanced";
+"位数" = "Digits";
+"周期" = "Period";
+"%lld 秒" = "%lld s";
+"算法" = "Algorithm";
+"剪贴板中没有 otpauth 链接或二维码图片" = "There's no otpauth link or QR code image on the clipboard.";
+"选择包含 2FA 二维码的图片" = "Choose images containing 2FA QR codes";
+"未识别到二维码。若截图是空白的，请在“系统设置 › 隐私与安全性 › 屏幕与系统录音”中允许 OTPBar。" = "No QR code found. If the screenshot was blank, allow OTPBar in System Settings › Privacy & Security › Screen & System Audio Recording.";
+"图片中未识别到二维码" = "No QR code found in the image.";
+"二维码不是 2FA（otpauth）格式" = "This QR code isn't a 2FA (otpauth) code.";
+
+/* Settings: accounts */
+"账户管理" = "Accounts";
+"拖动调整顺序 · 关闭开关即在菜单栏中隐藏" = "Drag to reorder · Switch off to hide from the menu bar";
+"显示 %lld / %lld" = "Showing %lld of %lld";
+"添加账户…" = "Add Account…";
+"拖动调整顺序" = "Drag to reorder";
+"在菜单栏中显示" = "Show in Menu Bar";
+"已隐藏，打开以在菜单栏中显示" = "Hidden. Switch on to show it in the menu bar.";
+"编辑" = "Edit";
+
+/* Settings: general */
+"通用" = "General";
+"复制后自动关闭菜单栏面板" = "Close the menu bar panel after copying";
+"验证码分组显示（123 456）" = "Group code digits (123 456)";
+"登录时启动" = "Launch at login";
+"自动清除剪贴板" = "Clear clipboard";
+"关闭" = "Never";
+"30 秒后" = "After 30 seconds";
+"60 秒后" = "After 60 seconds";
+"2 分钟后" = "After 2 minutes";
+"语言" = "Language";
+"跟随系统" = "System Default";
+"重启 OTPBar 后生效" = "Takes effect after OTPBar restarts";
+"立即重启" = "Restart Now";
+"备份" = "Backup";
+"导出备份…" = "Export Backup…";
+"从备份文件导入…" = "Import from Backup…";
+"备份文件是明文 otpauth 链接，包含全部密钥，请妥善保管。账户数据保存在系统“钥匙串”中。" = "Backups are plain-text otpauth links containing every secret, so keep them safe. Account data is stored in the system Keychain.";
+"退出 OTPBar" = "Quit OTPBar";
+"设置登录启动失败：%@" = "Couldn't change launch at login: %@";
+"备份为明文，请保存到安全位置" = "The backup is plain text. Save it somewhere safe.";
+"导出失败：%@" = "Export failed: %@";

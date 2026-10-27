@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>已添加 %lld 个账户</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Added %#@accounts@</string>
+		<key>accounts</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld account</string>
+			<key>other</key>
+			<string>%lld accounts</string>
+		</dict>
+	</dict>
+	<key>已添加 %lld 个账户，跳过 %lld 个重复项</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Added %1$#@accounts@, skipped %2$#@duplicates@</string>
+		<key>accounts</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld account</string>
+			<key>other</key>
+			<string>%lld accounts</string>
+		</dict>
+		<key>duplicates</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld duplicate</string>
+			<key>other</key>
+			<string>%lld duplicates</string>
+		</dict>
+	</dict>
+	<key>已导出 %lld 个账户</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Exported %#@accounts@</string>
+		<key>accounts</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld account</string>
+			<key>other</key>
+			<string>%lld accounts</string>
+		</dict>
+	</dict>
+	<key>OTPBar %@ · %lld 个账户</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>OTPBar %1$@ · %2$#@accounts@</string>
+		<key>accounts</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld account</string>
+			<key>other</key>
+			<string>%lld accounts</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
